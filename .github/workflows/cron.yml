@@ -1,9 +1,9 @@
 name: Cron Test Workflow
 
 on:
-  schedule:
+  # schedule:
     # 毎分実行するcron式（UTCタイムゾーンなので、タイミングはUTCで指定されます）
-    - cron: "* * * * *"
+    # - cron: "* * * * *"
   workflow_dispatch:  # 手動実行も可能にする
 
 jobs:
